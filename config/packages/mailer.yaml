@@ -1,0 +1,12 @@
+framework:
+    mailer:
+        dsn: '%env(MAILER_DSN)%'
+        
+        # This are global Configs #
+        envelope:
+            sender: 'admin@shop.com'
+            # recipients: ['foo@example.com', 'bar@example.com']
+        headers:
+            From: 'Admin Shop <admin@shop.com>'
+            # Bcc: 'baz@example.com'
+            # X-Custom-Header: 'foobar'
